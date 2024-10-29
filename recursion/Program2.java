@@ -6,7 +6,7 @@ public class Program2 {
             return n;
         }
         return n + calculateSum(n-1); 
-
+        
     }
     public static void main(String[] args) {
         System.out.println(calculateSum(5));
